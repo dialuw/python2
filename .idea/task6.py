@@ -1,0 +1,5 @@
+t = (1, 2, 3, 4, 5)
+lst = list(t)
+lst.append(6)
+t = tuple(lst)
+print(f"Task 6: {t}")
